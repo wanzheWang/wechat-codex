@@ -1,0 +1,22 @@
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
+
+# Runtime task state and generated outputs
+data/tasks.json
+data/logs/
+data/results/
+!data/.gitkeep
+
+# Local binaries downloaded for development
+tools/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# OS/editor noise
+.DS_Store
+.idea/
+.vscode/
