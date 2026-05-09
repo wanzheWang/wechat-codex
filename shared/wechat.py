@@ -59,3 +59,4 @@ def _optional_text(root: ET.Element, name: str) -> str | None:
     if child is None:
         return None
     return child.text or ""
+
